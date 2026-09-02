@@ -14,7 +14,7 @@ import { fileURLToPath } from "node:url";
 
 const __dirname = dirname(fileURLToPath(import.meta.url));
 const REPO_ROOT = resolve(__dirname, "..");
-const HOST = "https://dontpastetheai.com";
+const HOST = "https://meatproxy.fyi";
 
 const START_MARKER =
   "<!-- hreflang:start (managed by scripts/sync-hreflang.mjs — do not edit by hand) -->";

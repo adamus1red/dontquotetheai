@@ -1,5 +1,5 @@
 #!/usr/bin/env node
-// Validates the multilingual HTML setup for dontpastetheai.com.
+// Validates the multilingual HTML setup for meatproxy.fyi.
 // Source of truth: assets/translations.json. No external dependencies.
 
 import { readFileSync, existsSync, readdirSync, statSync } from "node:fs";
@@ -8,7 +8,7 @@ import { fileURLToPath } from "node:url";
 
 const __dirname = dirname(fileURLToPath(import.meta.url));
 const REPO_ROOT = resolve(__dirname, "..");
-const CANONICAL_HOST = "dontpastetheai.com";
+const CANONICAL_HOST = "meatproxy.fyi";
 const OLD_HOST = "dontquotetheai.com";
 const OLD_FILENAMES = ["ptbr.html", "zhtw.html"];
 

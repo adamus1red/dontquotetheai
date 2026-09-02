@@ -16,7 +16,7 @@ import { fileURLToPath } from "node:url";
 
 const __dirname = dirname(fileURLToPath(import.meta.url));
 const REPO_ROOT = resolve(__dirname, "..");
-const HOST = "https://dontpastetheai.com";
+const HOST = "https://meatproxy.fyi";
 
 function loadData() {
   const raw = readFileSync(
