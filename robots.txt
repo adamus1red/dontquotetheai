@@ -2,4 +2,4 @@
 User-agent: *
 Allow: /
 
-Sitemap: https://dontpastetheai.com/sitemap.xml
+Sitemap: https://meatproxy.fyi/sitemap.xml
